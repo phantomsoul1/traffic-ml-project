@@ -1,0 +1,400 @@
+0,1,Fender Bender,0.98
+1,1,Moderate,0.672
+2,1,Severe,0.728
+3,1,Fatal,0.96
+4,2,Fender Bender,0.98
+5,2,Moderate,0.66
+6,2,Severe,0.72
+7,2,Fatal,0.96
+8,3,Fender Bender,0.98
+9,3,Moderate,0.664
+10,3,Severe,0.716
+11,3,Fatal,0.96
+12,4,Fender Bender,0.98
+13,4,Moderate,0.676
+14,4,Severe,0.72
+15,4,Fatal,0.96
+16,5,Fender Bender,0.98
+17,5,Moderate,0.672
+18,5,Severe,0.72
+19,5,Fatal,0.96
+20,6,Fender Bender,0.98
+21,6,Moderate,0.676
+22,6,Severe,0.728
+23,6,Fatal,0.96
+24,7,Fender Bender,0.98
+25,7,Moderate,0.668
+26,7,Severe,0.728
+27,7,Fatal,0.96
+28,8,Fender Bender,0.98
+29,8,Moderate,0.668
+30,8,Severe,0.72
+31,8,Fatal,0.96
+32,9,Fender Bender,0.98
+33,9,Moderate,0.664
+34,9,Severe,0.728
+35,9,Fatal,0.96
+36,10,Fender Bender,0.98
+37,10,Moderate,0.66
+38,10,Severe,0.724
+39,10,Fatal,0.96
+40,11,Fender Bender,0.98
+41,11,Moderate,0.668
+42,11,Severe,0.724
+43,11,Fatal,0.96
+44,12,Fender Bender,0.98
+45,12,Moderate,0.648
+46,12,Severe,0.72
+47,12,Fatal,0.96
+48,13,Fender Bender,0.98
+49,13,Moderate,0.668
+50,13,Severe,0.72
+51,13,Fatal,0.96
+52,14,Fender Bender,0.98
+53,14,Moderate,0.66
+54,14,Severe,0.72
+55,14,Fatal,0.96
+56,15,Fender Bender,0.98
+57,15,Moderate,0.656
+58,15,Severe,0.724
+59,15,Fatal,0.96
+60,16,Fender Bender,0.98
+61,16,Moderate,0.668
+62,16,Severe,0.716
+63,16,Fatal,0.96
+64,17,Fender Bender,0.98
+65,17,Moderate,0.664
+66,17,Severe,0.716
+67,17,Fatal,0.96
+68,18,Fender Bender,0.98
+69,18,Moderate,0.656
+70,18,Severe,0.724
+71,18,Fatal,0.96
+72,19,Fender Bender,0.98
+73,19,Moderate,0.66
+74,19,Severe,0.716
+75,19,Fatal,0.96
+76,20,Fender Bender,0.98
+77,20,Moderate,0.664
+78,20,Severe,0.72
+79,20,Fatal,0.96
+80,21,Fender Bender,0.98
+81,21,Moderate,0.664
+82,21,Severe,0.728
+83,21,Fatal,0.96
+84,22,Fender Bender,0.98
+85,22,Moderate,0.656
+86,22,Severe,0.724
+87,22,Fatal,0.96
+88,23,Fender Bender,0.98
+89,23,Moderate,0.672
+90,23,Severe,0.72
+91,23,Fatal,0.96
+92,24,Fender Bender,0.98
+93,24,Moderate,0.656
+94,24,Severe,0.72
+95,24,Fatal,0.96
+96,25,Fender Bender,0.98
+97,25,Moderate,0.66
+98,25,Severe,0.724
+99,25,Fatal,0.96
+100,26,Fender Bender,0.98
+101,26,Moderate,0.656
+102,26,Severe,0.724
+103,26,Fatal,0.96
+104,27,Fender Bender,0.98
+105,27,Moderate,0.672
+106,27,Severe,0.72
+107,27,Fatal,0.96
+108,28,Fender Bender,0.98
+109,28,Moderate,0.668
+110,28,Severe,0.724
+111,28,Fatal,0.96
+112,29,Fender Bender,0.98
+113,29,Moderate,0.652
+114,29,Severe,0.728
+115,29,Fatal,0.96
+116,30,Fender Bender,0.98
+117,30,Moderate,0.672
+118,30,Severe,0.724
+119,30,Fatal,0.96
+120,31,Fender Bender,0.98
+121,31,Moderate,0.656
+122,31,Severe,0.708
+123,31,Fatal,0.96
+124,32,Fender Bender,0.98
+125,32,Moderate,0.668
+126,32,Severe,0.728
+127,32,Fatal,0.96
+128,33,Fender Bender,0.98
+129,33,Moderate,0.664
+130,33,Severe,0.712
+131,33,Fatal,0.96
+132,34,Fender Bender,0.98
+133,34,Moderate,0.664
+134,34,Severe,0.732
+135,34,Fatal,0.96
+136,35,Fender Bender,0.98
+137,35,Moderate,0.66
+138,35,Severe,0.728
+139,35,Fatal,0.96
+140,36,Fender Bender,0.98
+141,36,Moderate,0.668
+142,36,Severe,0.724
+143,36,Fatal,0.96
+144,37,Fender Bender,0.98
+145,37,Moderate,0.656
+146,37,Severe,0.728
+147,37,Fatal,0.96
+148,38,Fender Bender,0.98
+149,38,Moderate,0.66
+150,38,Severe,0.72
+151,38,Fatal,0.96
+152,39,Fender Bender,0.98
+153,39,Moderate,0.68
+154,39,Severe,0.736
+155,39,Fatal,0.96
+156,40,Fender Bender,0.98
+157,40,Moderate,0.668
+158,40,Severe,0.72
+159,40,Fatal,0.96
+160,41,Fender Bender,0.98
+161,41,Moderate,0.672
+162,41,Severe,0.724
+163,41,Fatal,0.96
+164,42,Fender Bender,0.98
+165,42,Moderate,0.676
+166,42,Severe,0.72
+167,42,Fatal,0.96
+168,43,Fender Bender,0.98
+169,43,Moderate,0.668
+170,43,Severe,0.724
+171,43,Fatal,0.96
+172,44,Fender Bender,0.98
+173,44,Moderate,0.652
+174,44,Severe,0.712
+175,44,Fatal,0.96
+176,45,Fender Bender,0.98
+177,45,Moderate,0.664
+178,45,Severe,0.728
+179,45,Fatal,0.96
+180,46,Fender Bender,0.98
+181,46,Moderate,0.648
+182,46,Severe,0.72
+183,46,Fatal,0.96
+184,47,Fender Bender,0.98
+185,47,Moderate,0.672
+186,47,Severe,0.72
+187,47,Fatal,0.96
+188,48,Fender Bender,0.98
+189,48,Moderate,0.664
+190,48,Severe,0.716
+191,48,Fatal,0.96
+192,49,Fender Bender,0.98
+193,49,Moderate,0.664
+194,49,Severe,0.716
+195,49,Fatal,0.96
+196,50,Fender Bender,0.98
+197,50,Moderate,0.66
+198,50,Severe,0.724
+199,50,Fatal,0.96
+200,51,Fender Bender,0.98
+201,51,Moderate,0.672
+202,51,Severe,0.732
+203,51,Fatal,0.96
+204,52,Fender Bender,0.98
+205,52,Moderate,0.668
+206,52,Severe,0.72
+207,52,Fatal,0.96
+208,53,Fender Bender,0.98
+209,53,Moderate,0.676
+210,53,Severe,0.72
+211,53,Fatal,0.96
+212,54,Fender Bender,0.98
+213,54,Moderate,0.672
+214,54,Severe,0.728
+215,54,Fatal,0.96
+216,55,Fender Bender,0.98
+217,55,Moderate,0.664
+218,55,Severe,0.728
+219,55,Fatal,0.96
+220,56,Fender Bender,0.98
+221,56,Moderate,0.656
+222,56,Severe,0.72
+223,56,Fatal,0.96
+224,57,Fender Bender,0.98
+225,57,Moderate,0.676
+226,57,Severe,0.724
+227,57,Fatal,0.96
+228,58,Fender Bender,0.98
+229,58,Moderate,0.66
+230,58,Severe,0.712
+231,58,Fatal,0.96
+232,59,Fender Bender,0.98
+233,59,Moderate,0.672
+234,59,Severe,0.724
+235,59,Fatal,0.96
+236,60,Fender Bender,0.98
+237,60,Moderate,0.66
+238,60,Severe,0.72
+239,60,Fatal,0.96
+240,61,Fender Bender,0.98
+241,61,Moderate,0.68
+242,61,Severe,0.716
+243,61,Fatal,0.96
+244,62,Fender Bender,0.98
+245,62,Moderate,0.652
+246,62,Severe,0.704
+247,62,Fatal,0.96
+248,63,Fender Bender,0.98
+249,63,Moderate,0.672
+250,63,Severe,0.72
+251,63,Fatal,0.96
+252,64,Fender Bender,0.98
+253,64,Moderate,0.68
+254,64,Severe,0.724
+255,64,Fatal,0.96
+256,65,Fender Bender,0.98
+257,65,Moderate,0.672
+258,65,Severe,0.712
+259,65,Fatal,0.96
+260,66,Fender Bender,0.98
+261,66,Moderate,0.656
+262,66,Severe,0.72
+263,66,Fatal,0.96
+264,67,Fender Bender,0.98
+265,67,Moderate,0.668
+266,67,Severe,0.716
+267,67,Fatal,0.96
+268,68,Fender Bender,0.98
+269,68,Moderate,0.656
+270,68,Severe,0.72
+271,68,Fatal,0.96
+272,69,Fender Bender,0.98
+273,69,Moderate,0.656
+274,69,Severe,0.704
+275,69,Fatal,0.96
+276,70,Fender Bender,0.98
+277,70,Moderate,0.664
+278,70,Severe,0.724
+279,70,Fatal,0.96
+280,71,Fender Bender,0.98
+281,71,Moderate,0.66
+282,71,Severe,0.728
+283,71,Fatal,0.96
+284,72,Fender Bender,0.98
+285,72,Moderate,0.684
+286,72,Severe,0.728
+287,72,Fatal,0.96
+288,73,Fender Bender,0.98
+289,73,Moderate,0.668
+290,73,Severe,0.72
+291,73,Fatal,0.96
+292,74,Fender Bender,0.98
+293,74,Moderate,0.652
+294,74,Severe,0.724
+295,74,Fatal,0.96
+296,75,Fender Bender,0.98
+297,75,Moderate,0.656
+298,75,Severe,0.72
+299,75,Fatal,0.96
+300,76,Fender Bender,0.98
+301,76,Moderate,0.66
+302,76,Severe,0.716
+303,76,Fatal,0.96
+304,77,Fender Bender,0.98
+305,77,Moderate,0.66
+306,77,Severe,0.716
+307,77,Fatal,0.96
+308,78,Fender Bender,0.98
+309,78,Moderate,0.668
+310,78,Severe,0.712
+311,78,Fatal,0.96
+312,79,Fender Bender,0.98
+313,79,Moderate,0.68
+314,79,Severe,0.72
+315,79,Fatal,0.96
+316,80,Fender Bender,0.98
+317,80,Moderate,0.676
+318,80,Severe,0.716
+319,80,Fatal,0.96
+320,81,Fender Bender,0.98
+321,81,Moderate,0.676
+322,81,Severe,0.72
+323,81,Fatal,0.96
+324,82,Fender Bender,0.98
+325,82,Moderate,0.656
+326,82,Severe,0.716
+327,82,Fatal,0.96
+328,83,Fender Bender,0.98
+329,83,Moderate,0.656
+330,83,Severe,0.712
+331,83,Fatal,0.96
+332,84,Fender Bender,0.98
+333,84,Moderate,0.652
+334,84,Severe,0.724
+335,84,Fatal,0.96
+336,85,Fender Bender,0.98
+337,85,Moderate,0.664
+338,85,Severe,0.724
+339,85,Fatal,0.96
+340,86,Fender Bender,0.98
+341,86,Moderate,0.66
+342,86,Severe,0.724
+343,86,Fatal,0.96
+344,87,Fender Bender,0.98
+345,87,Moderate,0.668
+346,87,Severe,0.724
+347,87,Fatal,0.96
+348,88,Fender Bender,0.98
+349,88,Moderate,0.66
+350,88,Severe,0.72
+351,88,Fatal,0.96
+352,89,Fender Bender,0.98
+353,89,Moderate,0.66
+354,89,Severe,0.724
+355,89,Fatal,0.96
+356,90,Fender Bender,0.98
+357,90,Moderate,0.668
+358,90,Severe,0.72
+359,90,Fatal,0.96
+360,91,Fender Bender,0.98
+361,91,Moderate,0.672
+362,91,Severe,0.744
+363,91,Fatal,0.96
+364,92,Fender Bender,0.98
+365,92,Moderate,0.652
+366,92,Severe,0.712
+367,92,Fatal,0.96
+368,93,Fender Bender,0.98
+369,93,Moderate,0.66
+370,93,Severe,0.716
+371,93,Fatal,0.96
+372,94,Fender Bender,0.98
+373,94,Moderate,0.656
+374,94,Severe,0.712
+375,94,Fatal,0.96
+376,95,Fender Bender,0.98
+377,95,Moderate,0.66
+378,95,Severe,0.72
+379,95,Fatal,0.96
+380,96,Fender Bender,0.98
+381,96,Moderate,0.668
+382,96,Severe,0.724
+383,96,Fatal,0.96
+384,97,Fender Bender,0.98
+385,97,Moderate,0.664
+386,97,Severe,0.72
+387,97,Fatal,0.96
+388,98,Fender Bender,0.98
+389,98,Moderate,0.672
+390,98,Severe,0.716
+391,98,Fatal,0.96
+392,99,Fender Bender,0.98
+393,99,Moderate,0.66
+394,99,Severe,0.728
+395,99,Fatal,0.96
+396,100,Fender Bender,0.98
+397,100,Moderate,0.668
+398,100,Severe,0.72
+399,100,Fatal,0.96
