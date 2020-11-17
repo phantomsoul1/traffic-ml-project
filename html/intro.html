@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <title>Traffic Accidents</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="static/css/intro.css">
+</head>
+
+<body onload="bodyLoaded()">
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="index.html"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <!-- Bootstrap Navbar -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="aboutUs.html">About Us</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Project Links
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="intro.html">Project Introduction & Documentation</a>
+                    <a class="dropdown-item" href="model.html">Machine Learning Model & Visualizations</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+        </nav>
+        <header class="py-5 mb-4">
+        <div class="container h-100 mt-4">
+          <div class="row h-100 align items-center">
+            <div class="col-lg-12 text-center">
+              <h1 class="display-2 text-dark mt-5">Project Introduction & Documentation</h1>
+              <p class="lead text-dark ml-2">Information on our Project's Dataset and Machine Learning Models Used</p>
+            </div>
+          </div>
+        </div>
+        </header>
+        <div class="container">
+          <h4>The Project</h4>
+          <p>This project was developed for Rutger's University Data Science Bootcamp students in Group 6. The members of Group 6 include Jake Byford, George Hyros, Robert Peron, and Michael Seifer.</p>
+          <br>
+          <p>The goal of our project was to understand what weather factors and conditions have the largest influence on the severity of accidents across the United States. We used a dataset on Kaggle that had approximately 3.5 million records of U.S. Traffic Accidents from February 2016 until June 2020. The accident data itself comes from many different entities, including US and State Departments of Transportation, Traffic Cameras and Traffic sensors. </p>
+          <br>
+          <p>Using the dataset provided on Kaggle, we were able to create and deploy two separate Machine Learning models. In order to be able to deploy the models and present them, we used the following tools to perform back-end and front-end operations.</p>
+          <ul>
+            <li>
+              Amazon AWS (RDS & S3): Used Amazon Relational Database Service to set up a PostgreSQL database in the cloud and S3 service in order to store the U.S. Traffic Accident csv file.  
+            </li>
+            <br>
+            <li>
+              SQL: To create the table schema to import our data into a table in the database.
+             </li>
+            <br>
+            <li>
+             Python/Spark: For cleaning our data we used Pandas library in Python. For importing the data to the database table, we used Spark to connect to the S3 object where we preprocessed the data to import to our database.
+             We also used the Scikit and Numpy libraries in Python in order to deploy our classification Machine Learning models and record the results.
+            </li>
+            <br>
+            <li>
+              Tableau: In order to dynamically visualize our dataset and Machine Learning Model results, we have embedded visualizations from Tableau in our webpage.
+             </li>
+          </ul>
+          <h4>Data Processing & Analysis</h4>
+          <p>Understanding the relationship that certain driving and weather conditions have with the severity of a traffic accident has serious importance to not only the safety of U.S. drivers, but for first responders and dispatchers. 
+            Emergency Services teams can understand what given weather and driving conditions are present in order to understand when additional teams may be required and what medical equipment may be necessary for more severe accidents.
+          </p>
+          <br>
+          <p>In order to prep the data for use in our Machine Learning models, the following steps were done for the data cleanup:</p>
+            <ul>
+              <li>
+                Loading the csv file in a Pandas Dataframe
+              </li>
+              <li>
+                Renaming and dropping columns from dataset
+              </li>
+              <li>
+                Converting datatypes in various columns
+              </li>
+              <li>
+                Creating random samples from the dataset for ML models
+              </li>
+              <li>
+                Removing NAN values from dataset for ML Models
+              </li>
+            </ul>
+          <h4>Machine Learning Method</h4>
+          <p>For our project goal, since we decided to analyze and better understand what factors into accident severity, our team knew we would be limited in the Machine Learning models available to us to use.
+            Since we have the severity of each accident in our dataset, our data has a determined outcome and therefore any Machine Learning model we run would have use a Supervised Machine Learning model. 
+          </p>
+          <br>
+          <p>
+            At first, our team attempted to run the Machine Learning model using a Linear regression model. We quickly learned that since Severity in our dataset is measured based on a discrete set of outcomes which are 1, 2, 3 and 4 (Fender Bender, Moderate, Severe, Fatal). 
+            We followed that attempt by instead using a Decision Tree and Random Forest Classifier Model and compared the performance of the two models with respect to the available conditions in our dataset. 
+          </p>
+          <h4>Analysis & Takeaways</h4>
+          <p>
+
+          </p>
+        </div>
+       
+    
+
+
+
+    <!-- Bootstrap scripts -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <!-- Site script -->
+    <script src="static/js/site.js"></script>
+
+</body>
+
+</html>
