@@ -30,8 +30,9 @@ https://www.kaggle.com/sobhanmoosavi/us-accidents
 
 ## Step 1:
 
-Once AWS account is created use RDS to create a Database instance. Use S3 to upload the `US_Accidents_June20.csv` file. Make it public through Settings and grab Object URL. Host name: db-inst-on-aws.cfx0x80oubi1.us-east-1.rds.amazonaws.com
-Port: 5432.
+Once AWS account is created use RDS to create a Database instance. Use S3 to upload the `US_Accidents_June20.csv` file. Make it public through Settings and grab Object URL. 
+- Host name: db-inst-on-aws.cfx0x80oubi1.us-east-1.rds.amazonaws.com
+- Port: 5432.
 
 ## Step 2:
 
