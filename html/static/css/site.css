@@ -59,3 +59,7 @@ text {
 #lead{
   font-size:20px;
 }
+
+.jumbotron {
+  opacity: 0.8;
+}
