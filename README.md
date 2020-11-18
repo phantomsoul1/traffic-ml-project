@@ -21,6 +21,7 @@ A look into recent traffic accident information. This file contains details of 3
 - MatPlotLib (`pip install matplotlib`)
 - Numpy (`pip install numpy`)
 - SQLAlchemy (`pip install sqlalchemy`)
+- Sci-kit Learn (`pip install -U scikit-learn`)
 
 Dataset provided by Kaggle on the following link:
 https://www.kaggle.com/sobhanmoosavi/us-accidents
@@ -52,11 +53,11 @@ Open a Jupyter Notebook and from SQLAlchemy create an engine bridging the Postgr
 
 ## Step 6:
 
-We ran through different models such as Linear Regression, Deep Learning, Decision Trees, Multiple Regressions, and Random Forests. Few were used in the final story telling outcome.\
+We ran through different models such as Linear Regression, Deep Learning, Decision Trees, Multiple Regressions, and Random Forests. Few were used in the final story telling outcome. These classification models led us to the realization forming a moderate relationship.
 ![](html/static/img/decisiontree.png)\
 
 # Conclusion
 
-From our models, we learned Decision Trees, Multiple Regressions, and Random Forests were the only capable models we could implement with the time given.\
+From our models, we learned Decision Trees and Random Forests were the only capable models we could implement with the time given. While it seemed that some factors such as humidity, severity, temperature, pressure, precipitation and hour of the day coorelated more consistently however none of the relationships were strong enough to reliably produce a classification of the crashes.
 
 ![](html/static/img/topfactors.png)\
