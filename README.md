@@ -1,11 +1,11 @@
 # Car Crashes Machine Learning Analysis
 
-![](html/static/img/skyview_highway.jpg)\
+![](html/static/img/skyview_highway.jpg)
 
 ## Introduction
 
 A look into recent traffic accident information. This file contains details of 3.5 million traffic accidents that took place in the United States, from February 2016 to June 2020.\
-![](html/static/img/database.png)\
+![](html/static/img/database.png)
 
 ## Our Dependecies
 
@@ -39,7 +39,7 @@ Open Google Collab, import os and enter the spark version for example: spark_ver
 ## Step 3:
 
 From pyspark.sql import SparkSession and config with PostgreSQL JDBC Driver. From pyspark import SparkFiles and import Object URL created from S3 (`US_Accidents_June20.csv`). Create a dataframe. Examine the schema to further rename columns and use as guide for table schemata in Postgres.\
-![](html/static/img/dataframe.png)\
+![](html/static/img/dataframe.png)
 
 ## Step 4:
 
@@ -54,10 +54,10 @@ Open a Jupyter Notebook and from SQLAlchemy create an engine bridging the Postgr
 ## Step 6:
 
 We ran through different models such as Linear Regression, Deep Learning, Decision Trees, Multiple Regressions, and Random Forests. Few were used in the final story telling outcome. These classification models led us to the realization forming a moderate relationship.
-![](html/static/img/decisiontree.png)\
+![](html/static/img/decisiontree.png)
 
 # Conclusion
 
 From our models, we learned Decision Trees and Random Forests were the only capable models we could implement with the time given. While it seemed that some factors such as humidity, severity, temperature, pressure, precipitation and hour of the day coorelated more consistently however none of the relationships were strong enough to reliably produce a classification of the crashes.
 
-![](html/static/img/topfactors.png)\
+![](html/static/img/topfactors.png)
